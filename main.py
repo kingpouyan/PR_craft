@@ -5,9 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 # =========================
 # تنظیمات اولیه
 
-BOT_TOKEN = "
-          8396100748:AAF-rsLmR1RBgNdZ2rWDU0nDhEmlNLK335k
-        "
+BOT_TOKEN = "8396100748:AAF-rsLmR1RBgNdZ2rWDU0nDhEmlNLK335"
 USERNAME = "POUYAN001"
 PASSWORD = "pooyan1391"
 SERVER_NAME = "POUYAN001"  # دقیقاً همونی که تو داشبورد می‌بینی
@@ -86,3 +84,4 @@ if __name__ == "__main__":
     app.add_handler(CommandHandler("status", status))
     print("ربات آماده اجراست...")
     app.run_polling()
+
