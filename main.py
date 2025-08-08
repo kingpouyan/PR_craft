@@ -1,7 +1,7 @@
 import telebot
 
 # 🔐 توکن رباتت رو اینجا بذار
-BOT_TOKEN = "8396100748:AAF-rsLmR1RBgNdZ2rWDU0nDhEmlNLK335"
+BOT_TOKEN = "8396100748:AAF-rsLmR1RBgNdZ2rWDU0nDhEmlNLK335k"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -12,3 +12,4 @@ def send_welcome(message):
 
 # ✅ اجرای دائم ربات
 bot.infinity_polling()
+
