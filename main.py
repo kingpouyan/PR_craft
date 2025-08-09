@@ -8,11 +8,11 @@ bot = telebot.TeleBot(BOT_TOKEN)
 # ✅ هندلر برای شروع
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, "سلام دادا
-    چطوری؟")
+    bot.reply_to(message, "سلام دادا چطوری؟")
 
 # ✅ اجرای دائم ربات
 bot.infinity_polling()
+
 
 
 
